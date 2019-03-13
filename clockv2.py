@@ -6,11 +6,10 @@ import time
 pygame.init()
 
 win = pygame.display.set_mode((600, 600))
-bunny = pygame.image.load(r'''C:\Users\SOFIA\Desktop\Programacion 2019\febrero 2019 proyectos\bunny clock\bunny.png''')
-paw = pygame.image.load(r'''C:\Users\SOFIA\Desktop\Programacion 2019\febrero 2019 proyectos\bunny clock\paw.png''')
-paw_firma = pygame.image.load(r'''C:\Users\SOFIA\Desktop\Programacion 2019\febrero 2019 proyectos\bunny clock\paw_firma.png''')
-stars = pygame.image.load(r'''C:\Users\SOFIA\Desktop\Programacion 2019\febrero 2019 proyectos\bunny clock\stars.png''')
-stars2 = pygame.image.load(r'''C:\Users\SOFIA\Desktop\Programacion 2019\febrero 2019 proyectos\bunny clock\stars2.png''')
+bunny = pygame.image.load(r'''.\icons\bunny.png''')
+paw = pygame.image.load(r'''.\icons\paw.png''')
+paw_firma = pygame.image.load(r'''.\icons\paw_firma.png''')
+stars2 = pygame.image.load(r'''.\icons\stars2.png''')
 
 pygame.display.set_caption('Bunny Clock!')
 
